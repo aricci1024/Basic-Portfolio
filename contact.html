@@ -1,5 +1,114 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
+<style>
+    body {
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        line-height: 200%;
+        margin: 0;
+        padding: 0;
+        background:url("/Users/alexanderricci/Desktop/GitHub/Basic-Portfolio/images/circles-light.png");
+    }
+
+    header {
+        color: #ffffff;
+        background-color:#4aaaa5;
+        font-family: 'Georgia', Times, "Times New Roman", serif;
+        padding: 5px;
+        margin-left: 90px;
+        margin-right: 870px;
+        text-align:center;
+    }
+
+    .header {
+        background-color:#ffffff;
+        border-bottom: #dddddd solid 2px;
+        size: 20px;
+    }
+
+    #form {
+        color:#777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    .container {
+        float: left;
+        width: 650px;
+        background-color:#ffffff;
+        align-content: center;
+        padding:20px;
+        margin-top:40px;
+        margin-bottom:40px;
+        margin-left:90px;
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    #contact-links {
+        width: 270px;
+        align-content: center;
+        float: right;
+        background-color:#ffffff;
+        padding:20px;
+        margin-top:40px;
+        margin-bottom:40px;
+        margin-right: 100px;
+    }
+
+    footer {
+        clear: both;
+        text-align: center;
+        overflow: auto;
+        padding:30px;
+        background:#666666;
+        color:#dddddd;
+        border-top: #4aaaa5 10px solid;
+        font-size: 12px;
+    }
+
+    .link {
+        margin: 5px;
+        height: 80px;
+        width: 80px;
+    }
+
+    h2, h3 {
+        color:#4aaaa5;
+        font-family: 'Georgia', Times, "Times New Roman", serif;
+        border-bottom: #dddddd solid 2px;
+        padding-bottom: 20px;
+    }
+
+    input {
+        color:#777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    textarea {
+        color:#777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    button {
+        color: #ffffff;
+        background-color:#4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .link {
+        margin: 5px;
+        height: 70px;
+        width: 70px;
+    }
+    </style>
+
 <body>
     <head>
     <meta charset="UTF-8">
@@ -7,37 +116,45 @@
     </head>
 
     <!-- Header -->
-    <h1>Alexander Ricci</h1>
+    <section class="header">
+        <header>
+            <h1>Alexander Ricci</h1>
+        </header>
+    </section>
 
     <!-- Add linkes to Portfolio and Contact page -->
 
-    <!-- Header of about me page -->
-    <h2>Contact</h2>
+    <div class="container">
+        <!-- Header of about me page -->
+        <h2>Contact</h2>
 
-    <!-- Form -->
-    <form>
-        First Name:<br>
-        <input type="text" name="John Smith">
+        <!-- Form -->
+        <form id="form">
+            Name<br>
+            <input type="text" placeholder="John Smith" size="87px">
+            <br>
 
-        Email:<br>
-        <input type="text" name="example@gmail.com">
+            Email<br>
+            <input type="text" placeholder="example@gmail.com" size="87px" >
+            <br>
 
-        Message:<br>
-        <input type="textarea" name="Enter message here">
+            Message<br>
+            <textarea name="message" rows="20" cols="125"></textarea>
 
-        <button type="submit" name="Submit"></button>
-    </form>
+            <button type="submit" name="Submit">Submit</button>
+        </form>
+    </div>
 
    <!-- Contact links on the right side -->
-   <div>
-        <h2>Connect with Me</h2>
-        <a href="https://github.com/aricci1024" target="_blank"><img height="50" width="50" src="if_github_square_black_107109.png"></a> 
-        <a href="https://www.linkedin.com/in/alexander-ricci-37664a67/" target="_blank"><img height="50" width="50" src="if_linkedin_square_color_107091.png"></a>
-        <a href="https://github.com/aricci1024" target="_blank"><img height="50" width="50" src="#"></a>
+   <div id="contact-links">
+        <h3>Connect with Me</h3>
+            <a href="https://github.com/aricci1024" target="_blank"><img class="link" src="/Users/alexanderricci/Desktop/GitHub/Basic-Portfolio/images/if_github_square_black_107109.png"></a> 
+            <a href="https://www.linkedin.com/in/alexander-ricci-37664a67/" target="_blank"><img class="link" src="/Users/alexanderricci/Desktop/GitHub/Basic-Portfolio/images/if_linkedin_square_color_107091.png"></a>
+            <a href="https://github.com/aricci1024" target="_blank"><img class="link" src="#"></a>
     </div>
     
     <!-- Footer -->
-    <footer>Copyright 2018 Alexander Ricci</footer>
+    <footer> © Copyright 2018 Alexander Ricci</footer>
 
 </body>
 

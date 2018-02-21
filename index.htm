@@ -7,16 +7,22 @@
         line-height: 200%;
         margin: 0;
         padding: 0;
+        background:url("/Users/alexanderricci/Desktop/GitHub/Basic-Portfolio/images/circles-light.png");
     }
 
     header {
-        color: white;
+        color: #ffffff;
         background-color:#4aaaa5;
         font-family: 'Georgia', Times, "Times New Roman", serif;
-        padding: 20px;
-        margin-left: 120px;
+        padding:5px;
+        margin-left: 90px;
         margin-right: 870px;
         text-align:center;
+    }
+
+    .header {
+        background-color:#ffffff;
+        border-bottom: #dddddd solid 2px;
     }
 
     #main-bio {
@@ -27,7 +33,7 @@
         padding:20px;
         margin-top:40px;
         margin-bottom:40px;
-        margin-left:120px;
+        margin-left:90px;
         padding-left:30px;
         padding-right:30px;
     }
@@ -38,10 +44,10 @@
         float: right;
         background-color:#ffffff;
         padding:20px;
-        padding-left:30px;
+        padding-left:20px;
         margin-top:40px;
         margin-bottom:40px;
-        margin-right: 130px;
+        margin-right: 100px;
     }
 
     footer {
@@ -50,8 +56,9 @@
         overflow: auto;
         padding:30px;
         background:#666666;
-        color:#ffffff;
+        color:#dddddd;
         border-top: #4aaaa5 10px solid;
+        font-size: 12px;
     }
 
     img {
@@ -61,27 +68,21 @@
 
     .link {
         margin: 5px;
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
 
     h2 {
         color:#4aaaa5;
         font-family: 'Georgia', Times, "Times New Roman", serif;
-        border-bottom: #dddddd solid 5px;
+        border-bottom: #dddddd solid 2px;
         padding-bottom: 20px;
-        padding-left: 20px;
     }
 
     p {
         color:#777777;
         padding-left: 20px;
     }
-
-    section {
-        background-color:#cccccc;
-    }
-
 </style>
 
 <body>
@@ -91,15 +92,11 @@
     </head>
 
     <!-- Header -->
-    
-    <header>
-    <h1>Alexander Ricci</h1>
-        <section id="pages">
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </section>
-    </header>
+    <section class="header">
+        <header>
+            <h1>Alexander Ricci</h1>
+        </header>
+    </section>
 
     <!-- Add linkes to Portfolio and Contact page -->
 
@@ -134,7 +131,7 @@
      
         <section>
             <!-- Footer -->
-            <footer>C Copyright 2018 Alexander Ricci</footer>
+            <footer>© Copyright 2018 Alexander Ricci</footer>
         </section>
     </div>
 </body>
