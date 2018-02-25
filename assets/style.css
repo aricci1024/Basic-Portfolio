@@ -3,13 +3,9 @@ body {
     line-height: 200%;
     margin: 0;
     padding: 0;
-    background-image:url("/Users/alexanderricci/Desktop/GitHub/Basic-Portfolio/images/circles-light.png");
+    background-image:url("images/circles-light.png");
 }
 
-.wrapper {
-    margin-left: auto;
-    margin-right: auto;
-}
 .header {
     background-color:#ffffff;
     border-bottom: #dddddd solid 3px;
