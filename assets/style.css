@@ -3,7 +3,6 @@ body {
     line-height: 200%;
     margin: 0;
     padding: 0;
-    background-image:url("../images/circles-light.png");
 }
 
 .header {
@@ -117,12 +116,14 @@ input {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 15px;
     display: inline-block;
+    overflow: auto;
 }
 
 textarea {
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: inline-block;
+    overflow: auto;
 }
 
 button {
