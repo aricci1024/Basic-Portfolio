@@ -5,6 +5,15 @@
     body {
         background-image: url("images/circles-light.png");
     }
+
+    .container-1 {
+        position:static;
+        width:1280px;
+    }
+
+    .header-container, li  {
+        position: static;
+    }
 </style>
 
 <body>
@@ -16,19 +25,21 @@
     </head>
 
     <!-- Header -->
+<div class="header-container">
     <section class="header">
         <h1>Alexander Ricci</h1>
         <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="menuitem"><a href="index.html">About</a></li>
+                <li class="menuitem"><a href="portfolio.html">Portfolio</a></li>
+                <li class="menuitem"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </section>
+</div>
 
     <!-- Add linkes to Portfolio and Contact page -->
-
+<div class="container-1">
     <div class="container">
         <section id="main-bio">
 
@@ -39,12 +50,14 @@
             <img height="200" width="250" src="images/D+EO28ZbRvq7w4k5VOI42g_thumb_52d.jpg">
 
             <!-- About me text -->
-            <p class="p">Hey! My name is Alexander and I'm from Berkeley, CA.Hey! My name is Alexander and 
-                I'm from Berkeley, CA.Hey! My name is Alexander and I'm from Berkeley, CA.Hey! My name is 
-                Alexander and I'm from Berkeley, CA.Hey! My name is Alexander and I'm from Berkeley, CA.
-                Hey! My name is Alexander and I'm from Berkeley, CA.Hey! My name is Alexander and I'm from Berkeley, CA.
-                Hey! My name is Alexander and I'm from Berkeley, CA.Hey! My name is Alexander and I'm from Berkeley, CA.
-                Hey! My name is Alexander and I'm from Berkeley, CA.Hey! My name is Alexander and I'm from Berkeley, CA.</p>
+            <p class="p">My name is Alexander Ricci and I live in Berkeley, CA. I graduated from Tulane University in 2013 with
+            Bachelors of Science in Geology. After graduating, I movied back to Berkeley where I got a position in a labroatory as an Asbestos
+            Analyst. After working there for a few months, I accepted a position as a Geologist at a consulting firm working in 
+            remediation. Since January of 2017, I have been persuing a Masters of Finance degree through Pennslvania State University
+            with an expected graduation date of June 2018. I left my position as a Geologist in March of 2017 to focus on persuing my
+            masters degree. In mid-February of this year (2018) I began a coding program with an expected completion date of July of
+            2018. I hope to combine the knowledge gained in the coding class to expand and elevate my studies in finance.
+            </p>
         </section>
     </div>
 
@@ -56,6 +69,7 @@
             <a href="https://www.linkedin.com/in/alexander-ricci-37664a67/" target="_blank">       <img class="link-2" src="images/if_linkedin_square_color_107091.png"></a>
             <a href="https://stackoverflow.com/users/9114693/alexander-ricci" target="_blank">     <img class="link-3" src="images/if_stackoverflow_273179.png"></a>
     </div>
+</div>
      
         <section>
             <!-- Footer -->

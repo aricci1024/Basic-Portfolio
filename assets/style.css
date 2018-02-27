@@ -19,10 +19,11 @@ h1 {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     padding-top: 30px;
     padding-bottom: 28px;
-    margin-right: 900px;
-    margin-left: 90px;
+    margin-right: 70%;
     margin-top: 0px;
     text-align:center;
+    margin-left: 90px;
+    width: 300px;
 }
 
 ul {
@@ -37,15 +38,16 @@ li {
 }
 
 nav a {
-    width: 100px;
+    width: 20%;
     display:block;
     text-decoration: none;
     color:#bbb8b8;
     text-align: center;
     font-size: 17px;
     padding: 2px 2px;
-    margin-right: -5px;
+    margin-right: 7px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-right: 35px;
 }
 
 #form {
@@ -69,7 +71,7 @@ nav a {
 }
 
 #contact-links {
-    min-width: 270px;
+    width: 270px;
     align-content: center;
     float: right;
     background-color:#ffffff;
@@ -77,6 +79,7 @@ nav a {
     margin-top:40px;
     margin-bottom:40px;
     margin-right: 130px;
+    position: static;
 }
 
 footer {
