@@ -54,6 +54,7 @@ nav a {
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     min-width: 650px;
+    margin-left: 40px;
 }
 
 .container {
@@ -118,19 +119,25 @@ h2 {
     margin-right: 40px;
 }
 
+.Pclass {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
 input {
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 15px;
     display: inline-block;
     overflow: auto;
+    padding-left: 20px;
 }
 
 textarea {
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: inline-block;
-    overflow: auto;
+    overflow: auto;  
 }
 
 button {
@@ -139,6 +146,7 @@ button {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 15px;
     margin-top: 10px;
+    margin-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -164,10 +172,15 @@ img {
     float: left;
 }
 
+.profile-img {
+    padding-top: 30px;
+}
+
 p {
     color:#777777;
     padding-left: 0px;
     width: 550px;
+    padding-top: 20px;
 }
 
 .text-block {
@@ -175,22 +188,30 @@ p {
     color:#ffffff;
     text-align: center;
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    margin-left: 20px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: -30px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: -23px;
+    margin-bottom: 0px;
     font-size:22px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: -10px;
+    padding-right: -10px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 250px;
     position: relative;
-    top:160px;
+    top:190px;
+    right:50px;
+    left: -30px;
 }
 
 .portfolio {
-    margin-left:20px;
-    margin-right: 100px;
+    margin-left:0px;
+    margin-right: 0px;
     margin-top: 0px;
+}
+
+table {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
